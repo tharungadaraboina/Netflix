@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #141414;
+	font-family: sans-serif;
+}
+
+.showcase {
+	height: 100vh;
+	background-image: url(https://static.seekingalpha.com/uploads/2018/8/27/48200183-15353923297627435_origin.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ca3c3c;
+}
+
+.showcase h1 {
+	font-size: 5rem;
+	margin-bottom: 1rem;
+}
+
+.showcase p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.btn {
+	display: inline-block;
+	background-color:#e50914;
+	color: #fff;
+	padding: 0.8rem 2rem;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #ff0a16;
+}
+.but {
+	margin: 0;
+	padding: 0%;
+	float: right;
+	
+}
